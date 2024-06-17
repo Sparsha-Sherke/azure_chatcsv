@@ -6,7 +6,7 @@ from pandasai import SmartDataframe
 
 import os
 
-os.environ['PANDASAI_API_KEY'] = "$2a$10$nze2YAaiwIq86wriHttIfO1PkvesPEpTnvZknPaWGi38XCQ0kx6mu"
+os.environ['PANDASAI_API_KEY'] = "PANDASAI_KEY"
 
 def chat_with_csv(df, prompt):
     pandas_ai = SmartDataframe(df)
